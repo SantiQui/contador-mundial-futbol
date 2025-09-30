@@ -1,0 +1,50 @@
+.App {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  background: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #004aad;
+  color: #fff;
+  padding: 1.5rem 0;
+}
+
+.contador {
+  margin: 2rem 0;
+}
+
+.dias {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #e63946;
+  margin: 1rem 0;
+}
+
+.estadisticas {
+  margin: 2rem auto;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+
+.estadisticas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.estadisticas li {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+footer {
+  margin-top: auto;
+  padding: 1rem 0;
+  background: #eaf1fb;
+}
